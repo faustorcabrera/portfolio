@@ -1,10 +1,14 @@
 /* styles.css*/
 body {
     font-family: 'DM Sans', sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+}
+a {
+    color: #0070c9
 }
 header {
-    background-color: #f8f9fa;
-    padding: 20px;
+    background-color: #f6f6f6;
 }
 nav ul {
     list-style-type: none;
@@ -13,4 +17,11 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 10px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
